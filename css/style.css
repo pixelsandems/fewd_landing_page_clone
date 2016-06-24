@@ -55,13 +55,10 @@ div {
 .logo {
 	margin-top: 15px;
 }
+
 /************End Nav************/
 
 /************Intro Section************/
-#background-image {
-	
-}
-
 .intro {
 	/*overflow: auto;*/
 	background-image: url('../imgs/karma-landing-background.jpg');
@@ -113,3 +110,45 @@ button:hover {
 	cursor: pointer;
 }
 /************End Intro Section************/
+
+/************Icon Section************/
+.three-icon {
+ 	height: 45rem;
+ 	box-sizing: border-box;
+ 	/*display: -webkit-flex;
+  	display: flex;
+  	-webkit-align-items: center;
+    align-items: center;
+  	-webkit-justify-content: center;
+    justify-content: center;*/
+}
+
+.three-icon ul li {
+	display: inline-block;
+	width: 20%;
+}
+
+.three-icon > h2 {
+	font-size: 3.5rem;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 7rem;
+}
+
+.icon img {
+	margin-right: 3rem;
+	height: 127px;
+	width: 127px;
+}
+
+.three-icon .caption h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0 1.75rem;
+	color: #000000;
+}
+
+.three-icon > ul {
+	list-style-type: none;
+}
+/************End Icon Section************/
