@@ -5,9 +5,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-div {
+/*div {
 	border: 1px solid  Chocolate;
-}
+}*/
 
 .content {
 	max-width: 970px;
@@ -20,6 +20,9 @@ div {
 /************Nav************/
 .top-nav {
 	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-nav .content {
@@ -115,6 +118,7 @@ button:hover {
 .three-icon {
  	height: 45rem;
  	box-sizing: border-box;
+ 	text-align: center;
  	/*display: -webkit-flex;
   	display: flex;
   	-webkit-align-items: center;
@@ -131,7 +135,6 @@ button:hover {
 .three-icon > h2 {
 	font-size: 3.5rem;
 	font-weight: lighter;
-	text-align: center;
 	margin-top: 7rem;
 }
 
